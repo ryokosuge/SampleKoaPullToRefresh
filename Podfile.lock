@@ -1,0 +1,13 @@
+PODS:
+  - FontAwesome+iOS (0.1.1)
+  - KoaPullToRefresh (1.0.6):
+    - FontAwesome+iOS
+
+DEPENDENCIES:
+  - KoaPullToRefresh
+
+SPEC CHECKSUMS:
+  FontAwesome+iOS: 243c5309e90d5788909b0f859f75ecff4a20f88f
+  KoaPullToRefresh: 1d836fcd6a440b2edb4f14db562bc7a983b71fce
+
+COCOAPODS: 0.32.1
