@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KSGTableViewController.h
 //  SampleKoaPullToRefresh
 //
 //  Created by Ryo Kosuge on 2014/05/14.
@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface KSGViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 @end
