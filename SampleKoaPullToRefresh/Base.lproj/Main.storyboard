@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="k6Y-3A-flX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="b71-NS-n3N">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Wx2-85-C6T">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="b71-NS-n3N" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="F2D-V9-DVc">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Rbz-NB-xjX" kind="relationship" relationship="rootViewController" id="aRE-Ld-YAo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tWp-RQ-NyA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="63" y="138"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="Wjn-7T-n6y">
             <objects>
@@ -50,10 +65,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="oW6-Nb-kAk" firstAttribute="top" secondItem="iKi-MS-odW" secondAttribute="bottom" id="LDI-N0-qna"/>
-                            <constraint firstItem="cm8-Vm-5eG" firstAttribute="top" secondItem="oW6-Nb-kAk" secondAttribute="bottom" id="YeD-0k-bAg"/>
-                            <constraint firstItem="oW6-Nb-kAk" firstAttribute="leading" secondItem="ca4-1S-y2L" secondAttribute="leading" id="d54-0C-EHx"/>
-                            <constraint firstAttribute="trailing" secondItem="oW6-Nb-kAk" secondAttribute="trailing" id="wd6-tp-I93"/>
+                            <constraint firstAttribute="trailing" secondItem="oW6-Nb-kAk" secondAttribute="trailing" id="0dX-nH-uXD"/>
+                            <constraint firstItem="oW6-Nb-kAk" firstAttribute="leading" secondItem="ca4-1S-y2L" secondAttribute="leading" id="OHT-Uy-IBj"/>
+                            <constraint firstItem="oW6-Nb-kAk" firstAttribute="top" secondItem="iKi-MS-odW" secondAttribute="bottom" id="UbB-mT-FuY"/>
+                            <constraint firstItem="cm8-Vm-5eG" firstAttribute="top" secondItem="oW6-Nb-kAk" secondAttribute="bottom" id="rnN-RO-R3j"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0lT-5x-aqk"/>
@@ -64,21 +79,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="grr-Gn-3TK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="505" y="138"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="m32-DP-05G">
-            <objects>
-                <navigationController definesPresentationContext="YES" id="k6Y-3A-flX" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mwi-DA-qb3">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="Rbz-NB-xjX" kind="relationship" relationship="rootViewController" id="R5W-SC-lLA"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Bg-6h-6yU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="44" y="138"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
