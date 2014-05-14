@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9286F321923A221007D3A58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9286F311923A221007D3A58 /* Foundation.framework */; };
+		E9286F341923A221007D3A58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9286F331923A221007D3A58 /* CoreGraphics.framework */; };
+		E9286F361923A221007D3A58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9286F351923A221007D3A58 /* UIKit.framework */; };
+		E9286F3C1923A221007D3A58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9286F3A1923A221007D3A58 /* InfoPlist.strings */; };
+		E9286F3E1923A221007D3A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9286F3D1923A221007D3A58 /* main.m */; };
+		E9286F421923A221007D3A58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9286F411923A221007D3A58 /* AppDelegate.m */; };
+		E9286F451923A221007D3A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9286F431923A221007D3A58 /* Main.storyboard */; };
+		E9286F481923A221007D3A58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9286F471923A221007D3A58 /* ViewController.m */; };
+		E9286F4A1923A221007D3A58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9286F491923A221007D3A58 /* Images.xcassets */; };
+		E9286F511923A221007D3A58 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9286F501923A221007D3A58 /* XCTest.framework */; };
+		E9286F521923A221007D3A58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9286F311923A221007D3A58 /* Foundation.framework */; };
+		E9286F531923A221007D3A58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9286F351923A221007D3A58 /* UIKit.framework */; };
+		E9286F5B1923A221007D3A58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9286F591923A221007D3A58 /* InfoPlist.strings */; };
+		E9286F5D1923A221007D3A58 /* SampleKoaPullToRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9286F5C1923A221007D3A58 /* SampleKoaPullToRefreshTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9286F541923A221007D3A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9286F261923A221007D3A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9286F2D1923A221007D3A58;
+			remoteInfo = SampleKoaPullToRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9286F2E1923A221007D3A58 /* SampleKoaPullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleKoaPullToRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9286F311923A221007D3A58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9286F331923A221007D3A58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9286F351923A221007D3A58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9286F391923A221007D3A58 /* SampleKoaPullToRefresh-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleKoaPullToRefresh-Info.plist"; sourceTree = "<group>"; };
+		E9286F3B1923A221007D3A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9286F3D1923A221007D3A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9286F3F1923A221007D3A58 /* SampleKoaPullToRefresh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleKoaPullToRefresh-Prefix.pch"; sourceTree = "<group>"; };
+		E9286F401923A221007D3A58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9286F411923A221007D3A58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9286F441923A221007D3A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9286F461923A221007D3A58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9286F471923A221007D3A58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9286F491923A221007D3A58 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9286F4F1923A221007D3A58 /* SampleKoaPullToRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleKoaPullToRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9286F501923A221007D3A58 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E9286F581923A221007D3A58 /* SampleKoaPullToRefreshTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleKoaPullToRefreshTests-Info.plist"; sourceTree = "<group>"; };
+		E9286F5A1923A221007D3A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9286F5C1923A221007D3A58 /* SampleKoaPullToRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleKoaPullToRefreshTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9286F2B1923A221007D3A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9286F341923A221007D3A58 /* CoreGraphics.framework in Frameworks */,
+				E9286F361923A221007D3A58 /* UIKit.framework in Frameworks */,
+				E9286F321923A221007D3A58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9286F4C1923A221007D3A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9286F511923A221007D3A58 /* XCTest.framework in Frameworks */,
+				E9286F531923A221007D3A58 /* UIKit.framework in Frameworks */,
+				E9286F521923A221007D3A58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9286F251923A221007D3A58 = {
+			isa = PBXGroup;
+			children = (
+				E9286F371923A221007D3A58 /* SampleKoaPullToRefresh */,
+				E9286F561923A221007D3A58 /* SampleKoaPullToRefreshTests */,
+				E9286F301923A221007D3A58 /* Frameworks */,
+				E9286F2F1923A221007D3A58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9286F2F1923A221007D3A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9286F2E1923A221007D3A58 /* SampleKoaPullToRefresh.app */,
+				E9286F4F1923A221007D3A58 /* SampleKoaPullToRefreshTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9286F301923A221007D3A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9286F311923A221007D3A58 /* Foundation.framework */,
+				E9286F331923A221007D3A58 /* CoreGraphics.framework */,
+				E9286F351923A221007D3A58 /* UIKit.framework */,
+				E9286F501923A221007D3A58 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9286F371923A221007D3A58 /* SampleKoaPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				E9286F401923A221007D3A58 /* AppDelegate.h */,
+				E9286F411923A221007D3A58 /* AppDelegate.m */,
+				E9286F431923A221007D3A58 /* Main.storyboard */,
+				E9286F461923A221007D3A58 /* ViewController.h */,
+				E9286F471923A221007D3A58 /* ViewController.m */,
+				E9286F491923A221007D3A58 /* Images.xcassets */,
+				E9286F381923A221007D3A58 /* Supporting Files */,
+			);
+			path = SampleKoaPullToRefresh;
+			sourceTree = "<group>";
+		};
+		E9286F381923A221007D3A58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9286F391923A221007D3A58 /* SampleKoaPullToRefresh-Info.plist */,
+				E9286F3A1923A221007D3A58 /* InfoPlist.strings */,
+				E9286F3D1923A221007D3A58 /* main.m */,
+				E9286F3F1923A221007D3A58 /* SampleKoaPullToRefresh-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9286F561923A221007D3A58 /* SampleKoaPullToRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9286F5C1923A221007D3A58 /* SampleKoaPullToRefreshTests.m */,
+				E9286F571923A221007D3A58 /* Supporting Files */,
+			);
+			path = SampleKoaPullToRefreshTests;
+			sourceTree = "<group>";
+		};
+		E9286F571923A221007D3A58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9286F581923A221007D3A58 /* SampleKoaPullToRefreshTests-Info.plist */,
+				E9286F591923A221007D3A58 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9286F2D1923A221007D3A58 /* SampleKoaPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9286F601923A221007D3A58 /* Build configuration list for PBXNativeTarget "SampleKoaPullToRefresh" */;
+			buildPhases = (
+				E9286F2A1923A221007D3A58 /* Sources */,
+				E9286F2B1923A221007D3A58 /* Frameworks */,
+				E9286F2C1923A221007D3A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleKoaPullToRefresh;
+			productName = SampleKoaPullToRefresh;
+			productReference = E9286F2E1923A221007D3A58 /* SampleKoaPullToRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9286F4E1923A221007D3A58 /* SampleKoaPullToRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9286F631923A221007D3A58 /* Build configuration list for PBXNativeTarget "SampleKoaPullToRefreshTests" */;
+			buildPhases = (
+				E9286F4B1923A221007D3A58 /* Sources */,
+				E9286F4C1923A221007D3A58 /* Frameworks */,
+				E9286F4D1923A221007D3A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9286F551923A221007D3A58 /* PBXTargetDependency */,
+			);
+			name = SampleKoaPullToRefreshTests;
+			productName = SampleKoaPullToRefreshTests;
+			productReference = E9286F4F1923A221007D3A58 /* SampleKoaPullToRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9286F261923A221007D3A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = kosuge;
+				TargetAttributes = {
+					E9286F4E1923A221007D3A58 = {
+						TestTargetID = E9286F2D1923A221007D3A58;
+					};
+				};
+			};
+			buildConfigurationList = E9286F291923A221007D3A58 /* Build configuration list for PBXProject "SampleKoaPullToRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9286F251923A221007D3A58;
+			productRefGroup = E9286F2F1923A221007D3A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9286F2D1923A221007D3A58 /* SampleKoaPullToRefresh */,
+				E9286F4E1923A221007D3A58 /* SampleKoaPullToRefreshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9286F2C1923A221007D3A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9286F4A1923A221007D3A58 /* Images.xcassets in Resources */,
+				E9286F3C1923A221007D3A58 /* InfoPlist.strings in Resources */,
+				E9286F451923A221007D3A58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9286F4D1923A221007D3A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9286F5B1923A221007D3A58 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9286F2A1923A221007D3A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9286F481923A221007D3A58 /* ViewController.m in Sources */,
+				E9286F421923A221007D3A58 /* AppDelegate.m in Sources */,
+				E9286F3E1923A221007D3A58 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9286F4B1923A221007D3A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9286F5D1923A221007D3A58 /* SampleKoaPullToRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9286F551923A221007D3A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9286F2D1923A221007D3A58 /* SampleKoaPullToRefresh */;
+			targetProxy = E9286F541923A221007D3A58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9286F3A1923A221007D3A58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9286F3B1923A221007D3A58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9286F431923A221007D3A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9286F441923A221007D3A58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9286F591923A221007D3A58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9286F5A1923A221007D3A58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9286F5E1923A221007D3A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9286F5F1923A221007D3A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9286F611923A221007D3A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleKoaPullToRefresh/SampleKoaPullToRefresh-Prefix.pch";
+				INFOPLIST_FILE = "SampleKoaPullToRefresh/SampleKoaPullToRefresh-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9286F621923A221007D3A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleKoaPullToRefresh/SampleKoaPullToRefresh-Prefix.pch";
+				INFOPLIST_FILE = "SampleKoaPullToRefresh/SampleKoaPullToRefresh-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E9286F641923A221007D3A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleKoaPullToRefresh.app/SampleKoaPullToRefresh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleKoaPullToRefresh/SampleKoaPullToRefresh-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SampleKoaPullToRefreshTests/SampleKoaPullToRefreshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E9286F651923A221007D3A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleKoaPullToRefresh.app/SampleKoaPullToRefresh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleKoaPullToRefresh/SampleKoaPullToRefresh-Prefix.pch";
+				INFOPLIST_FILE = "SampleKoaPullToRefreshTests/SampleKoaPullToRefreshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9286F291923A221007D3A58 /* Build configuration list for PBXProject "SampleKoaPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9286F5E1923A221007D3A58 /* Debug */,
+				E9286F5F1923A221007D3A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9286F601923A221007D3A58 /* Build configuration list for PBXNativeTarget "SampleKoaPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9286F611923A221007D3A58 /* Debug */,
+				E9286F621923A221007D3A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9286F631923A221007D3A58 /* Build configuration list for PBXNativeTarget "SampleKoaPullToRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9286F641923A221007D3A58 /* Debug */,
+				E9286F651923A221007D3A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9286F261923A221007D3A58 /* Project object */;
+}
